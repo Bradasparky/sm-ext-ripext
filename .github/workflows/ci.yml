@@ -10,7 +10,7 @@ jobs:
       fail-fast: false
       matrix:
         os: [ubuntu-22.04, windows-2022]
-        sourcemod-version: [1.12-dev]
+        sourcemod-version: [731b9689bd9c7631d57862faa259b38a2052765e]
         python-version: ['3.10']
         include:
           - os: ubuntu-22.04
